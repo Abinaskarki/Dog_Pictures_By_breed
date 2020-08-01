@@ -1,0 +1,80 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.label{
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.select{
+  margin: 10px;
+  padding: 5px;
+}
+
+.button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: teal;
+  color: white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breedList{
+  display: flex;
+  flex-direction: row;
+}
+
+.error{
+  color: red;
+  font-size: 24px;
+}
+
+img{
+  display: block;
+  width: 250px;
+  height: 250px;
+  padding: 5;
+  margin: 5;
+}
+
+img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-component {
+  margin: 10px;
+  border: white;
+  border-style: solid;
+  border-width: thick;
+  box-shadow: lightsteelblue;
+  
+}
